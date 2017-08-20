@@ -1,29 +1,47 @@
-.Hero {
+.HeroLayout {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
     height: 80vh;
+    max-height: 100vh;
     max-width: 100%;
-    border: 1px solid red;
+    background-color: #000;
 }
 
 .Hero-wrapper {
-    max-height: 100%;
+    display: flex;
 }
 
-.Hero-dores1,
-.Hero-dores2,
-.Hero-dores3 {
+.Hero-dores {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 5px;
 }
 
-.Hero-dores1-image,
-.Hero-dores2-image,
-.Hero-dores3-image {
-    max-height: 100%;
-    width: 30%;
+.Hero-dores:hover {
+    transform: rotateY(180deg);    
+}
+
+.Hero-dores1 {
+    background-image: url("./assets/images/brushstroke_01.png");
+}
+
+.Hero-dores2 {
+    background-image: url("./assets/images/brushstroke_02.png");
+}
+
+.Hero-dores3 {
+    background-image: url("./assets/images/brushstroke_03.png");
+}
+
+.Hero-dores-image {
+    max-width: 100%;
+    transform: scale(0.7);
+}
+
+.Hero-header {
+    padding: 5px;
+    color: #fff;
 }

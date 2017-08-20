@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HeroLayout from './HeroLayout'
+import HeroLayout from './HeroLayout/HeroLayout'
 import './App.css';
 
 class App extends Component {
