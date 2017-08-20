@@ -21,15 +21,23 @@
 }
 
 .Hero-dores:hover {
-    transform: rotateY(180deg);    
+    transform: rotateY(180deg);  
 }
 
 .Hero-dores1 {
     background-image: url("./assets/images/brushstroke_01.png");
 }
 
+.Hero-dores1:hover {
+    background-position: left;
+}
+
 .Hero-dores2 {
     background-image: url("./assets/images/brushstroke_02.png");
+}
+
+.Hero-dores2:hover {
+    background-repeat: repeat; 
 }
 
 .Hero-dores3 {
@@ -37,6 +45,11 @@
 }
 
 .Hero-dores-image {
+    max-width: 100%;
+    transform: scale(0.7);
+}
+
+.Hero-dores-image3 {
     max-width: 100%;
     transform: scale(0.7);
 }
