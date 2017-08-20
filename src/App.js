@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Hero from './Hero/'
+import HeroLayout from './HeroLayout'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Hero />
+        <HeroLayout />
       </div>
     );
   }
