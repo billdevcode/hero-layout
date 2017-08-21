@@ -4,8 +4,41 @@
     align-items: center;
     justify-content: center;
     max-height: 90vh;
+    height: 90vh;
     max-width: 100%;
+    padding: 10px;
     background-color: #000;
+    font-family: 'Advent Pro', sans-serif;    
+}
+@media (max-width: 767px) {
+    .HeroLayout {
+        max-height: none;  
+        height: auto;      
+    }
+}
+@media (max-width: 450px) {
+    .HeroLayout {
+        height: 90vh;       
+    }
+}
+
+.Hero-header {
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    z-index: 10;
+}
+
+.Hero-header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #ffd700;  
+    font-family: 'Dancing Script', cursive;    
+}
+.Hero-header p {
+    max-height: 50px;
+    font-size: 1.2em;    
+    margin: 0;
 }
 
 .Hero-wrapper {
@@ -17,7 +50,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 5px;
+    padding: 20px;
 }
 
 .Hero-dores:hover {
@@ -55,8 +88,57 @@
     max-width: 100%;
 }
 
-.Hero-header {
-    padding: 5px;
+.Hero-showMoreBtn {
+    position: relative;
+    width: 110px;
+    height: 12px;
+    margin: 25px;
+    padding: 1.25em 3.5em;
+    background-color: #000;    
     color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
     z-index: 10;
+}
+
+.Hero-showMoreBtn span {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    transition: all 0.3s;
+}
+
+.Hero-showMoreBtn:hover span{
+    width: 40%;
+    height: 30%;
+    border-color: #ffd700;
+    border-width: 3px;
+}
+
+.Hero-btn-topLeft {
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: 0;
+    left: 0;
+}
+.Hero-btn-topRight {
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: 0;
+    right: 0;
+}
+.Hero-btn-bottomLeft {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: 0;
+    left: 0;
+}
+.Hero-btn-bottomRight {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: 0;
+    right: 0;
 }
