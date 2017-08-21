@@ -2,10 +2,11 @@
 This is a challenge to build a hero layout UI.
 
 ## Installation
-- Unzip the file and spin up a server targeting the **build** folder
-- Get [serve](https://www.npmjs.com/package/serve) if needed to serve the files
-  - `npm install -g serve` or `yarn global add serve`
-  - `serve -s build` - build is the folder name after unzipping
+- `git clone https://github.com/billdevcode/hero-layout.git`
+- `cd hero-layout`
+- `yarn install` or `npm install`
+- `yarn start` or `npm start`
+- The browser will open up with a new tab http://localhost:3000/ 
 
 ### Cross Browser Test - local browsers and BrowserStack
 - Win10 Internet Explorer 11
