@@ -8,9 +8,7 @@
     height: 90vh;
     max-width: 100%;
     padding: 10px;
-    background-color: #000;
     font-family: 'Advent Pro', sans-serif;
-    color: #fff;  
 }
 @media (max-width: 767px) {
     .HeroLayout {
