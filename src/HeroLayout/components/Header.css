@@ -1,7 +1,6 @@
 .Hero-header {
     position: relative;
     padding: 10px;
-    color: #fff;
     z-index: 10;
 }
 
@@ -15,4 +14,5 @@
     max-height: 50px;
     font-size: 1.2em;    
     margin: 0;
+    letter-spacing: 1.5px;    
 }

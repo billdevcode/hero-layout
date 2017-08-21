@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
+import HeroIntro from './components/HeroIntro'
 import Hero1 from './Hero/Hero1'
 import Hero2 from './Hero/Hero2'
 import Hero3 from './Hero/Hero3'
-import LearnMoreButton from './components/LearnMoreButton'
 import './HeroLayout.css'
 
 const HeroLayout = () => {
@@ -15,7 +15,7 @@ const HeroLayout = () => {
                 <Hero1 />
                 <Hero3 />
             </div>
-            <LearnMoreButton />
+            <HeroIntro />
         </div>
     )
 }
