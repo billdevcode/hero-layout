@@ -1,0 +1,60 @@
+.LearnMoreButton {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 110px;
+    height: 12px;
+    margin: 0 auto;
+    padding: 1.25em 3.5em;
+    background-color: #000;    
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.LearnMoreButton:hover span{
+    width: 40%;
+    height: 30%;
+    border-color: #ffd700;
+    border-width: 3px;
+}
+
+.LearnMoreButton-topLeft,
+.LearnMoreButton-topRight,
+.LearnMoreButton-bottomLeft,
+.LearnMoreButton-bottomRight {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    transition: all 0.3s;
+}
+
+.LearnMoreButton-topLeft {
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: 0;
+    left: 0;
+}
+.LearnMoreButton-topRight {
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: 0;
+    right: 0;
+}
+.LearnMoreButton-bottomLeft {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: 0;
+    left: 0;
+}
+.LearnMoreButton-bottomRight {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: 0;
+    right: 0;
+}

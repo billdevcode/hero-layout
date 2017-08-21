@@ -1,0 +1,18 @@
+.Hero-header {
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    z-index: 10;
+}
+
+.Hero-header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #ffd700;  
+    font-family: 'Dancing Script', cursive;    
+}
+.Hero-header p {
+    max-height: 50px;
+    font-size: 1.2em;    
+    margin: 0;
+}
